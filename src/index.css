@@ -46,7 +46,7 @@ body{
 .search-section .search-form span{
   color: white;
   top: 50%;
-  transform: translateX(-50%);
+  transform: translateY(-50%);
   position: absolute;
   left: 16px;
 
