@@ -6,6 +6,7 @@ import HourlyWeather from "./components/HourlyWeather";
 import { weatherCodes } from "./constant";
 
 function App() {
+  const API_KEY = import.meta.env.VITE_API_KEY;
   const [currentWeather, setCurrentWeather] = useState({});
   //ceates state for hourly forecast and pass it to hourly weather
   const [hourlyForecast, setHourlyForecast] = useState([]);
@@ -56,10 +57,18 @@ function App() {
       ];
 
       filterHourlyForecast(combineHourlyData);
-    } catch (error) {
+    } catch (error) {   
       console.log(error);
     }
   };
+
+  useEffect(() => {
+    const defaultCity = "Adelaide"
+    const API_URL = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${defaultCity}&days=2`;
+    getWeatherDetails(API_URL);
+  }, []); // it will render in only default 
+
+  console.log(hourlyForecast, "hourlyforcast");
   return (
     <div className="container">
       {/*This is a search section*/}
