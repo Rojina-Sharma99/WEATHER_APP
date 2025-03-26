@@ -1,6 +1,6 @@
 # 🌦️ Weather Application
 ## 📝 Overview
-This is a simple and intuitive weather application 🌍 that allows users to search for any city 🏙️ and view:
+This is a weather application that allows users to search for any city and view current weather conditions along with an hourly forecast for the next 24 hours. The application fetches real-time weather data from WeatherAPI and is built using React with Vite for fast and efficient development.
 
 Current weather conditions 🌡️
 
@@ -30,7 +30,7 @@ The app is built with React ⚛️ and Vite ⚡, fetching real-time weather data
 bash
 Copy
 Edit
-git clone https://github.com/upadhyaybikram/weather-app.git
+git clone https://github.com/Rojina-Sharma99/WEATHER_APP
 2️⃣ Navigate to the project folder:
 bash
 Copy
@@ -65,7 +65,7 @@ weather-app/
 │── src/  
 │   ├── components/        📁 Reusable components  
 │   │   ├── CurrentWeather.jsx  
-│   │   ├── HourlyWeatherItem.jsx  
+│   │   ├── HourlyWeather.jsx  
 │   │   ├── SearchSection.jsx  
 │   │   ├── NoResultsDiv.jsx  
 │   ├── constants/         📁 Weather condition codes  
