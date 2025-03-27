@@ -10,10 +10,15 @@ The app is built with React ⚛️ and Vite ⚡, fetching real-time weather data
 
 ## ✨ Features
 ✅ Search Functionality: Easily search for any city to get live weather updates 🔎
+
 ✅ Current Weather Display: See temperature 🌡️, weather conditions 🌤️, and corresponding icons 🖼️
+
 ✅ Hourly Forecast: View hourly weather updates for the next 24 hours ⏰
+
 ✅ Default City: App starts by showing Adelaide’s weather 🇦🇺
+
 ✅ Get longitude and latitude info.
+
 ✅ Error Handling: Friendly message if no results are found ❌
 
 ## 🛠️ Technologies Used
