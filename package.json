@@ -1,11 +1,13 @@
 {
   "name": "weather_app",
   "version": "1.0.0",
+  "type": "module",
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "keywords": [],
